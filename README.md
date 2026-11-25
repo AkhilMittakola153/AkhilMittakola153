@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/highlights.svg" alt="Highlights" width="100%" />
+  <img src="highlights.svg" alt="Highlights" width="100%" />
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 > ## Data & BI Stack
 
 <p align="center">
-  <img src="./assets/toolkit.svg" alt="Data and BI Toolkit" width="100%" />
+  <img src="toolkit.svg" alt="Data and BI Toolkit" width="100%" />
 </p>
 
 > ## Programming Languages
@@ -58,6 +58,7 @@
 | 📉 [**customerchurn**](https://github.com/AkhilMittakola153/customerchurn) | Random Forest churn model on 7,043 Telco customers, **78% test accuracy**. `Python` `scikit-learn` |
 | 📚 [**AskMyDocs**](https://github.com/AkhilMittakola153/AskMyDocs) | RAG app: ask questions across PDF, DOCX and TXT files, get answers with citations. `Python` `Streamlit` `BM25` |
 | 💬 [**AI-Text-Assistant**](https://github.com/AkhilMittakola153/AI-Text-Assistant) | AI chat assistant on free LLMs via OpenRouter, with fallback and streaming. `Python` `Streamlit` |
+| 💬 [**F1 Race Predictor**](https://github.com/AkhilMittakola153/f1_race_predictor) | Predicts F1 race finishing order after qualifying. `Python` |
 | 📄 [**pdf**](https://github.com/AkhilMittakola153/pdf) | Free, mobile-friendly PDF and image toolkit that runs locally in the browser. `TypeScript` |
 
 ## 🔗 Connect with Me
@@ -76,4 +77,4 @@
   </picture>
 </p>
 
-<p align="center"><sub>Akhil Mittakola · <a href="https://www.gitskins.com/templates/community-creative-dev-rt3x">creative dev</a> template by <a href="https://www.gitskins.com/creators/himanshu201031">@himanshu201031</a> · styled with <a href="https://www.gitskins.com">GitSkins</a></sub></p>
+<p align="center"><sub>Akhil Mittakola · styled with <a href="https://www.gitskins.com">GitSkins</a></sub></p>
