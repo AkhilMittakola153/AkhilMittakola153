@@ -1,9 +1,9 @@
-name: Generate contribution snake
+name: Snake trail
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:          # run manually from the Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -14,16 +14,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # blue palette to match the GitSkins cards
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/snake-dark.svg?color_snake=#e6edf3&color_dots=#161b22,#1e3a5f,#2f5f98,#3b82f6,#60a5fa
+            dist/snake-light.svg?color_snake=#1f6feb&color_dots=#ebedf0,#bfd6f6,#8dbdff,#4b91f1,#1f6feb
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
