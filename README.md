@@ -39,12 +39,6 @@
   <img src="toolkit.svg" alt="Data and BI Toolkit" width="100%" />
 </p>
 
-> ## Programming Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,html,css&theme=dark" alt="Python, TypeScript, JavaScript, HTML, CSS" />
-</p>
-
 > ## Tools
 
 <p align="center">
